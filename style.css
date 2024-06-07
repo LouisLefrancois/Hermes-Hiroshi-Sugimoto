@@ -12,13 +12,14 @@ body {
     overflow-x: hidden;
     background: #F6F1EB;
     color: #000;
+    padding: 25px 100px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 55px;
+    padding: 0 0 100px;
 }
 
 .navbar-left {
@@ -61,3 +62,212 @@ body {
     font-size: 14px;
     text-align: right;
 }
+
+
+
+.first-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 100px 55px 60px; */
+}
+
+.first-container .mark {
+    position: absolute;
+    top: 200px;
+    left: 65px;
+    height: auto;
+    width: auto;
+}
+
+.first-container .txt-jp {
+    position: absolute;
+    top: 285px;
+    left: 360px;
+}
+
+.first-container .txt p {
+    font-size: 20px;
+    width: 680px;
+}
+
+.first-container .txt {
+    align-content: end;
+}
+
+.first-container img {
+    object-fit: cover;
+    height: 480px;
+    width: 50%;
+}
+
+.first-container .name {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+}
+
+.first-container .name-jp {
+    position: absolute;
+    top: 0;
+    right: -25px;
+}
+
+.first-container h2 {
+    font-size: 16px;
+}
+
+.title-jp h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    padding: 80px 0 100px;
+    line-height: 25px;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+.second-container {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    gap: 10px;
+    padding: 0 0 100px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-expo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-english, .text-japanese {
+    text-align: end;
+}
+
+.text-english {
+    font-size: clamp(12px, 1.12vw, 20px);
+}
+
+.text-japanese {
+    font-size: clamp(12px, 1.12vw, 20px);
+}
+
+.third-container h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.third-container p {
+    text-align: center;
+    padding: 25px 0 60px;
+    font-size: 18px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+.grid-item p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 0 0 15px;
+}
+
+.txt-jp-en {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+.jp-container {
+    display: flex;
+    padding: 0 0 60px ;
+}
+
+.jp-container h1, .jp-container p,
+.en-container h1, .en-container p {
+    font-size: 16px;
+}
+
+.jp-container h1,
+.en-container h1 {
+    width: 40%;
+    font-weight: 500;
+}
+
+.jp-container p,
+.en-container p {
+    width: 60%;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.jp-container h1, .en-container h1 {
+    text-align: center;
+    align-content: center;
+}
+
+.jp-container p {
+    text-align: right;
+    align-content: center;
+}
+
+.en-container p {
+    text-align: left;
+    align-content: center;
+}
+
+.en-container {
+    display: flex;
+}
+
+.fourth-container {
+    position: relative;
+}
+
+.fourth-container img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.fourth-container .name {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+}
+
+.fourth-container .name h2, .fourth-container .name-jp h2 {
+    font-size: 16px;
+}
+
+.fourth-container .name-jp {
+    position: absolute;
+    top: 0;
+    right: -25px;
+}
+
+.end {
+    padding: 3.2rem;
+    text-align: center;
+    line-height: 24px;
+  }
