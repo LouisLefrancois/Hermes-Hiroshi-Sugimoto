@@ -245,8 +245,8 @@ h1, h2 {
 }
 
 .fourth-container img {
-    object-fit: contain;
-    height: 100%;
+    object-fit: cover;
+    height: 680px;
     width: 100%;
 }
 
@@ -262,6 +262,7 @@ h1, h2 {
 
 .fourth-container .name-jp {
     position: absolute;
+    text-align: center;
     top: 0;
     right: -25px;
 }
