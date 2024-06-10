@@ -44,12 +44,12 @@ body {
 }
 
 .navbar-left h1 {
-    font-size: 48px;
+    font-size: clamp(12px, 2.5vw, 32px);
     font-weight: 100;
 }
 
 .navbar-left p {
-    font-size: 24.4px;
+    font-size: clamp(12px, 1.27vw, 16.3px);
     font-weight: 100;
 }
 
