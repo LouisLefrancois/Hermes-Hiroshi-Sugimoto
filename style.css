@@ -183,7 +183,7 @@ h1, h2 {
 .third-container {
     max-width: 1920px;
     margin: 0 auto;
-    padding: 80px 0 0 ;
+    padding: 80px 0 0;
 }
 
 .third-container h1 {
@@ -395,29 +395,16 @@ h1, h2 {
         text-align: center;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     .end {
         padding: 3rem 0 0;
     }
 }
 
-
-
-
-
 @media (max-width: 768px) {
+    .navbar {
+        padding: 0 0 2rem;
+    }
+
     .navbar-left {
         display: none;
     }
