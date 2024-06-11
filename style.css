@@ -80,9 +80,10 @@ body {
 .first-container {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     max-width: 1920px;
     margin: 0 auto;
+    gap: 10px;
 }
 
 .first-container .mark {
@@ -172,7 +173,7 @@ h1, h2 {
 }
 
 .text-en {
-    font-size: clamp(12px, 1.12vw, 24px);
+    font-size: clamp(12px, .95vw, 24px);
 }
 
 .text-jp {
@@ -319,17 +320,23 @@ h1, h2 {
 
 /* RESPONSIVE */
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
+    body {
+        padding: 25px 0;
+    }
 
+    .navbar, .first-container, .title-jp, .second-container, .third-container, .txt-jp-en, .fourth-container, .end {
+        max-width: 1200px;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     body {
         padding: 30px 25px;
     }
 
     .navbar {
-        padding: 0 0 2rem;
+        padding: 0 0 3rem;
     }
 
     .navbar-left h1 {
@@ -339,22 +346,23 @@ h1, h2 {
     .navbar-left p {
         font-size: 12.35px;
     }
-
+    
     .navbar-center .logo {
         height: 65px;
     }
 
     .first-container {
-        display: flex;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
+        gap: 0;
     }
 
     .first-container .sugimoto-img {
-        /* margin-bottom: 100px; */
+        object-fit: contain;
+        height: 500px;
     }
 
-    img.mark, h2.txt-jp {
+    img.mark, h2.txt-jp, .name, .name-jp {
         display: none;
     }
 
@@ -364,19 +372,43 @@ h1, h2 {
 
     .first-container .txt p {
         width: 100%;
-        padding: 50px 0 10px 0;
-    }
-
-    .first-container .name {
-        bottom: 205px;
-    }
-
-    .first-container .name-jp {
-        right: -20px;
+        padding: 50px 0 15px;
+        text-align: center;
     }
 
     .title-jp h1 {
-        padding: 10px 0 50px 0;
+        padding: 15px 0 50px;
+        text-align: center;
     }
 
+    .second-container {
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+
+    .image-text {
+        gap: 50px;
+    }
+
+    .text-en, .text-jp {
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .end {
+        padding: 3rem 0 0;
+    }
 }
