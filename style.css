@@ -109,7 +109,7 @@ body {
     align-content: end;
 }
 
-.first-container img {
+.first-container .sugimoto-img {
     object-fit: cover;
     height: 480px;
     width: 50%;
@@ -325,5 +325,59 @@ h1, h2 {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding: 30px 25px;
+    }
+
+    .navbar {
+        padding: 0 0 2rem;
+    }
+
+    .navbar-left h1 {
+        font-size: 24px;
+    }
+
+    .navbar-left p {
+        font-size: 12.35px;
+    }
+
+    .navbar-center .logo {
+        height: 65px;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .first-container .sugimoto-img {
+        /* margin-bottom: 100px; */
+    }
+
+    img.mark, h2.txt-jp {
+        display: none;
+    }
+
+    .first-container .sugimoto-img {
+        width: 100%;
+    }
+
+    .first-container .txt p {
+        width: 100%;
+        padding: 50px 0 10px 0;
+    }
+
+    .first-container .name {
+        bottom: 205px;
+    }
+
+    .first-container .name-jp {
+        right: -20px;
+    }
+
+    .title-jp h1 {
+        padding: 10px 0 50px 0;
+    }
 
 }
