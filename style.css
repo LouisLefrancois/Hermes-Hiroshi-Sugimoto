@@ -439,6 +439,13 @@ h1, h2 {
         gap: 20px;
     }
 
+    .line {
+        background-color: black;
+        width: 75%;
+        height: 1px;
+        margin: 50px auto 0;
+    }
+
     .third-container {
         padding: 50px 0;
     }
@@ -483,5 +490,9 @@ h1, h2 {
 
     .jp-container h1, .en-container h1 {
         padding: 0 0 25px;
+    }
+
+    .end {
+        padding: 2rem 0 0 ;
     }
 }
