@@ -412,3 +412,88 @@ h1, h2 {
         padding: 3rem 0 0;
     }
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-left {
+        display: none;
+    }
+
+    .navbar-center {
+        flex: 0;
+    }
+    
+    .first-container .sugimoto-img {
+        height: 100%;
+    }
+
+    .first-container .txt p {
+        font-size: 18px;
+        padding: 25px 0 10px;
+    }
+
+    .title-jp h1 {
+        font-size: 18px;
+        padding: 10px 0 25px;
+    }
+
+    .image-text {
+        gap: 25px;
+    }
+
+    .text-en, .text-jp {
+        font-size: 18px;
+    }
+
+    .second-container {
+        gap: 20px;
+    }
+
+    .third-container {
+        padding: 50px 0 50px;
+    }
+
+    .third-container h1 {
+        font-size: 32px;
+    }
+
+    .third-container p {
+        padding: 20px 0 35px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item p {
+        font-size: 14px;
+        padding: 0;
+        margin: 5px 0 0;
+    }
+
+    .txt-jp-en {
+        padding: 30px 0;
+    }
+
+    .jp-container h1, .en-container h1,
+    .jp-container p, .en-container p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .jp-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .en-container {
+        flex-direction: column-reverse;
+    }
+
+    .jp-container h1, .en-container h1 {
+        padding: 0 0 25px;
+    }
+}
