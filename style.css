@@ -431,12 +431,12 @@ h1, h2 {
     }
 
     .first-container .txt p {
-        font-size: 18px;
+        font-size: 16px;
         padding: 25px 0 10px;
     }
 
     .title-jp h1 {
-        font-size: 18px;
+        font-size: 16px;
         padding: 10px 0 25px;
     }
 
@@ -445,7 +445,7 @@ h1, h2 {
     }
 
     .text-en, .text-jp {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .second-container {
@@ -462,6 +462,7 @@ h1, h2 {
 
     .third-container p {
         padding: 20px 0 35px;
+        font-size: 16px;
     }
 
     .grid-container {
