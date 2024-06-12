@@ -80,6 +80,11 @@ body {
     text-align: right;
 }
 
+.navbar-left:hover,
+.navbar-right a:hover {
+    color: #AB5E3F;
+}
+
 .first-container {
     position: relative;
     justify-content: space-between;
