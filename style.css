@@ -173,11 +173,13 @@ h1, h2 {
 }
 
 .text-en {
-    font-size: clamp(12px, .95vw, 24px);
+    /* font-size: clamp(12px, .95vw, 24px); */
+    font-size: 20px;
 }
 
 .text-jp {
-    font-size: clamp(12px, .95vw, 24px);
+    /* font-size: clamp(12px, .95vw, 24px); */
+    font-size: 20px;
 }
 
 .third-container {
@@ -320,6 +322,16 @@ h1, h2 {
 
 /* RESPONSIVE */
 
+@media (max-width: 1850px) {
+    .text-en {
+        font-size: 17px;
+    }
+    
+    .text-jp {
+        font-size: 17px;
+    }
+}
+
 @media (max-width: 1600px) {
     body {
         padding: 25px 0;
@@ -327,6 +339,14 @@ h1, h2 {
 
     .navbar, .first-container, .title-jp, .second-container, .third-container, .txt-jp-en, .fourth-container, .end {
         max-width: 1200px;
+    }
+
+    .text-en {
+        font-size: 15.6px;
+    }
+    
+    .text-jp {
+        font-size: 15.6px;
     }
 }
 
